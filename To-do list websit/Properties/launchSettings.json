@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "To-do list websit": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:8601;http://localhost:8602"
+    }
+  }
+}

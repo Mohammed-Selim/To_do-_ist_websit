@@ -1,0 +1,66 @@
+﻿@model IEnumerable<To_do_list_websit.models.mytask.tasks>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a class="btn btn-success" asp-action="Create">Add Task</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+               
+                 @Html.DisplayName("Task Name")
+            </th>
+          @*  <th>
+                @Html.DisplayNameFor(model => model.description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AssignDate)
+            </th>*@
+            <th>
+                @Html.DisplayNameFor(model => model.states)
+            </th>
+            
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                    <a asp-action="Details" asp-route-id="@item.id"> @item.name</a>
+            </td>
+           @* <td>
+                @Html.DisplayFor(modelItem => item.description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AssignDate)
+            </td>*@
+           
+            <td>
+                    @if (item.states==1)
+                    {
+                        @Html.DisplayName("Open")
+                    }@if (item.states == 2)
+                    {
+                        @Html.DisplayName("In Progress")
+                    }@if (item.states == 3)
+                    {
+                        @Html.DisplayName("Done")
+                    }
+            </td>
+          
+            <td>
+                    <a class ="btn btn-warning" asp-action="Edit" asp-route-id="@item.id">Edit</a> 
+                    <a class="btn btn-primary" asp-action="Details" asp-route-id="@item.id">Details</a>
+                    <a class ="btn btn-danger"asp-action="Delete" asp-route-id="@item.id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

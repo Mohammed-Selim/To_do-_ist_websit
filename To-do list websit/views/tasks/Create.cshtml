@@ -1,0 +1,97 @@
+﻿@model To_do_list_websit.models.mytask.tasks
+
+@*@{
+    ViewData["Title"] = "Create";
+}*@
+
+<h1>Create</h1>
+
+<h4>tasks</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form  asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="name" class="control-label"></label>
+                <input asp-for="name" class="form-control" />
+                <span asp-validation-for="name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="description" class="control-label"></label>
+                <input asp-for="description" class="form-control" />
+                <span asp-validation-for="description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AssignDate" class="control-label"></label>
+                <input asp-for="AssignDate" class="form-control" />
+                <span asp-validation-for="AssignDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="states" class="control-label"></label>
+                 <select name="states" class="form-select" asp-for="states">
+                    @{
+                     <option disabled selected>select state</option>
+                    <option  value="1">Open</option>
+                    <option  value="2">In Progress</option>
+                    <option  value="3">Done</option>
+                    }
+                </select>
+                <span asp-validation-for="states" class="text-danger"></span>
+            </div>
+        @*    <div class="form-group">
+                <label asp-for="Userid" class="control-label"></label>
+                <select asp-for="Userid" class ="form-control" asp-items="ViewBag.Userid"></select>
+            </div>*@
+            <div class="form-group">
+                <label asp-for="Categoryid" class="control-label"></label>
+      @*          <select asp-for="Categoryid" class ="form-control" asp-items="ViewBag.Categoryid"></select>*@
+
+                @Html.DisplayName("Category :")
+      
+                     @{
+                    var cats = ViewBag.cats;
+                    if (cats != null)
+                    {
+                        <select class="form-select" name="Categoryid" asp-for="Categoryid">
+                            <option disabled selected>select category</option>
+                            @foreach (var i in cats)
+                        {
+                                <option value="@i.Id" >@i.Name</option>
+                            }
+                        </select>
+
+                    }
+
+                }
+                @Html.DisplayName("User :")
+                  @{
+                    var users = ViewBag.uses;
+                    if (users != null)
+                    {
+                        <select name="Userid" class="form-select" asp-for="Userid">
+                            <option disabled selected>select user</option>
+                            @foreach (var i in users)
+                        {
+                                <option value="@i.ID">@i.Name</option>
+
+                            }
+                        </select>
+
+                    }
+               }
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-success" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a class="btn btn-secondary" asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

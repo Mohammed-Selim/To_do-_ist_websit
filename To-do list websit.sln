@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "To-do list websit", "To-do list websit\To-do list websit.csproj", "{8FEA9E5A-45C0-40DC-8E0C-44C42519D4EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FEA9E5A-45C0-40DC-8E0C-44C42519D4EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FEA9E5A-45C0-40DC-8E0C-44C42519D4EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FEA9E5A-45C0-40DC-8E0C-44C42519D4EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FEA9E5A-45C0-40DC-8E0C-44C42519D4EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA26FB59-7222-40AF-B24F-9519F902CAA4}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "twitter-fetcher@18.0.4",
+      "destination": "lib/twitter-fetcher/"
+    }
+  ]
+}

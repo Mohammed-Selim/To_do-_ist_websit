@@ -1,0 +1,97 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = To_do_list_websit
+build_property.RootNamespace = To_do_list_websit
+build_property.ProjectDir = E:\1A iti qena fullstack web dev using .net\ASP.NET\MVC\Mohammed Selim Atallah\project MVC\To-do list websit\To-do list websit\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\1A iti qena fullstack web dev using .net\ASP.NET\MVC\Mohammed Selim Atallah\project MVC\To-do list websit\To-do list websit
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/1A iti qena fullstack web dev using .net/ASP.NET/MVC/Mohammed Selim Atallah/project MVC/To-do list websit/To-do list websit/views/Categories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dmlld3NcQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1A iti qena fullstack web dev using .net/ASP.NET/MVC/Mohammed Selim Atallah/project MVC/To-do list websit/To-do list websit/views/Categories/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dmlld3NcQ2F0ZWdvcmllc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1A iti qena fullstack web dev using .net/ASP.NET/MVC/Mohammed Selim Atallah/project MVC/To-do list websit/To-do list websit/views/Categories/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dmlld3NcQ2F0ZWdvcmllc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1A iti qena fullstack web dev using .net/ASP.NET/MVC/Mohammed Selim Atallah/project MVC/To-do list websit/To-do list websit/views/Categories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dmlld3NcQ2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1A iti qena fullstack web dev using .net/ASP.NET/MVC/Mohammed Selim Atallah/project MVC/To-do list websit/To-do list websit/views/Categories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1A iti qena fullstack web dev using .net/ASP.NET/MVC/Mohammed Selim Atallah/project MVC/To-do list websit/To-do list websit/views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1A iti qena fullstack web dev using .net/ASP.NET/MVC/Mohammed Selim Atallah/project MVC/To-do list websit/To-do list websit/views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1A iti qena fullstack web dev using .net/ASP.NET/MVC/Mohammed Selim Atallah/project MVC/To-do list websit/To-do list websit/views/tasks/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dmlld3NcdGFza3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1A iti qena fullstack web dev using .net/ASP.NET/MVC/Mohammed Selim Atallah/project MVC/To-do list websit/To-do list websit/views/tasks/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dmlld3NcdGFza3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1A iti qena fullstack web dev using .net/ASP.NET/MVC/Mohammed Selim Atallah/project MVC/To-do list websit/To-do list websit/views/tasks/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dmlld3NcdGFza3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1A iti qena fullstack web dev using .net/ASP.NET/MVC/Mohammed Selim Atallah/project MVC/To-do list websit/To-do list websit/views/tasks/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dmlld3NcdGFza3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1A iti qena fullstack web dev using .net/ASP.NET/MVC/Mohammed Selim Atallah/project MVC/To-do list websit/To-do list websit/views/tasks/Filter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dmlld3NcdGFza3NcRmlsdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1A iti qena fullstack web dev using .net/ASP.NET/MVC/Mohammed Selim Atallah/project MVC/To-do list websit/To-do list websit/views/tasks/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dmlld3NcdGFza3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1A iti qena fullstack web dev using .net/ASP.NET/MVC/Mohammed Selim Atallah/project MVC/To-do list websit/To-do list websit/views/Users/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1A iti qena fullstack web dev using .net/ASP.NET/MVC/Mohammed Selim Atallah/project MVC/To-do list websit/To-do list websit/views/Users/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dmlld3NcVXNlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1A iti qena fullstack web dev using .net/ASP.NET/MVC/Mohammed Selim Atallah/project MVC/To-do list websit/To-do list websit/views/Users/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dmlld3NcVXNlcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1A iti qena fullstack web dev using .net/ASP.NET/MVC/Mohammed Selim Atallah/project MVC/To-do list websit/To-do list websit/views/Users/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1A iti qena fullstack web dev using .net/ASP.NET/MVC/Mohammed Selim Atallah/project MVC/To-do list websit/To-do list websit/views/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dmlld3NcVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1A iti qena fullstack web dev using .net/ASP.NET/MVC/Mohammed Selim Atallah/project MVC/To-do list websit/To-do list websit/views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1A iti qena fullstack web dev using .net/ASP.NET/MVC/Mohammed Selim Atallah/project MVC/To-do list websit/To-do list websit/views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
